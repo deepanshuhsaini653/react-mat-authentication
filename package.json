@@ -1,12 +1,22 @@
 {
   "name": "react-mat-authentication",
-  "version": "1.2.5",
-  "description": "This is a react library",
+  "version": "1.2.9",
+  "description": "This is a fully customize authentication library where we can find login, forgot password, reset password, verify otp features",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "private": false,
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "React Login Via Password",
+    "React Forgot Password",
+    "React Reset Password",
+    "React Login Via OTP",
+    "React Verify OTP",
+    "React Authentication",
+    "React Authentication Library",
+    "React Auth"
   ],
   "scripts": {
     "start": "react-scripts start",
@@ -24,9 +34,9 @@
     "@types/node": "^18.8.3",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "formik": "^2.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "formik": "^2.2.9",
     "typescript": "^4.8.4"
   },
   "peerDependencies": {
@@ -35,12 +45,12 @@
     "@mui/icons-material": "^5.10.6",
     "@mui/lab": "^5.0.0-alpha.102",
     "@mui/material": "^5.10.8",
+    "formik": "^2.2.9",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
-    "formik": "^2.2.9",
     "react-dom": "^18.2.0",
+    "react-mat-otp-input": "^1.0.3",
     "react-router-dom": "^6.4.2",
-    "react-otp-input": "^2.4.0",
     "yup": "^0.32.11"
   }
 }

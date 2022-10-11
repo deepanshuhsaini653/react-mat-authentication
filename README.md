@@ -217,5 +217,38 @@ export const VerifiOTPScreen = () => {
     </div>
   );
 };
+```
 
+# Add this CSS
+
+```css
+Use this css .otpContainer {
+    display: flex;
+}
+
+.otpInput {
+    width: 100% !important;
+    height: 3rem;
+    margin: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.otpInput::-webkit-outer-spin-button,
+.otpInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/*  Add breakpoint for iPhone */
+@media only screen and (max-width: 375px) {
+    .otpInput {
+        width: 100% !important;
+        height: 1.5rem;
+        font-size: 1rem;
+        padding: 8px;
+    }
+}
 ```
